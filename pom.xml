@@ -11,6 +11,7 @@
     <modules>
         <module>dubboapi</module>
         <module>dubboconsumer</module>
+        <module>dubbo-provider</module>
     </modules>
 
     <parent>

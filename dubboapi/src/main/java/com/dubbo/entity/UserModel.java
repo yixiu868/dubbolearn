@@ -2,7 +2,7 @@ package com.dubbo.entity;
 
 import java.io.Serializable;
 
-public class UserDao implements Serializable {
+public class UserModel implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -10,10 +10,10 @@ public class UserDao implements Serializable {
     private String name;
     private String passwrod;
 
-    public UserDao() {
+    public UserModel() {
     }
 
-    public UserDao(Long id, String name, String passwrod) {
+    public UserModel(Long id, String name, String passwrod) {
         this.id = id;
         this.name = name;
         this.passwrod = passwrod;
