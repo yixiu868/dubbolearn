@@ -1,0 +1,10 @@
+/.settings
+/spring-dubbo/target
+/spring-dubbo/.settings
+/dubboapi/target
+/dubboapi/.settings
+*.classpath
+*.project
+*.prefs
+/dubbo-provider/target
+/dubboconsumer/target
