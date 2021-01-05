@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ww</groupId>
-	<artifactId>dubbo-provider-springboot</artifactId>
+	<artifactId>dubbo-provider-apiconfig</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>dubbo-provider-springboot</name>
+	<name>dubbo-provider-apiconfig</name>
 	<description>springboot dubbo整合</description>
 
 	<properties>
