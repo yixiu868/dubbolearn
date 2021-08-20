@@ -1,0 +1,2 @@
+chinese=com.ww.dubbo.spi.service.impl.ChineseDish
+japanese=com.ww.dubbo.spi.service.impl.JapaneseDish

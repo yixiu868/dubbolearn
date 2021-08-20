@@ -1,1 +1,0 @@
-### dubbo.properties方式配置dubbo
