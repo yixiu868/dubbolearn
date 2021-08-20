@@ -9,7 +9,6 @@
   	<module>dubbo-facades</module>
   	<module>dubbo-api-config</module>
   	<module>dubbo-rpc-base</module>
-  	<module>dubbo-springboot</module>
   </modules>
   
   <dependencyManagement>
