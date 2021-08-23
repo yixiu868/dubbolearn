@@ -12,4 +12,8 @@
 
     <!-- 生成远程服务代理，可以和本地bean一样使用 -->
     <dubbo:reference id="userService" interface="com.ww.service.UserService" />
+
+    <bean id="userProxyService" class="com.ww.consumer.service.impl.UserProxyServiceImpl">
+        <property name="userService" ref="userService" />
+    </bean>
 </beans>

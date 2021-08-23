@@ -6,6 +6,8 @@ import org.apache.dubbo.config.annotation.DubboService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * @author xiaohua
  * @description 提供者接口实现
@@ -25,6 +27,14 @@ public class UserServiceImpl implements UserService {
         user.setAddress("北京");
         user.setTel("010");
         user.setUsername("李四");
+
+        try {
+            logger.info("[提供者]开始睡眠了...");
+            TimeUnit.SECONDS.sleep(10);
+            logger.info("[提供者]睡眠结束了...");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return user;
     }
 }
